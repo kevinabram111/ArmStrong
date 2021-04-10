@@ -21,11 +21,11 @@
 
     //Graph/Chart index.html
 
-    var d1 = [ [0, 1], [1, 14], [2, 5], [3, 4], [4, 5], [5, 1], [6, 14], [7, 5],  [8, 5] ];
-    var d2 = [ [0, 5], [1, 2], [2, 10], [3, 1], [4, 9],  [5, 5], [6, 2], [7, 10], [8, 8] ];
+    var d1 = [ [0, 9], [1, 9], [2, 8], [3, 7], [4, 10], [5, 10], [6, 9], [7, 5],  [8, 2] ];
+    var d2 = [ [0, 10], [1, 10], [2, 10], [3, 10], [4, 11],  [5, 13], [6, 11], [7, 6], [8, 3] ];
 
 		var plot = $.plot($('#placeholder2'),
-			   [ { data: d1, label: 'Profits'}, { data: d2, label: 'Expenses' } ], {
+			   [ { data: d1, label: 'OTIF'}, { data: d2, label: 'Order Accuracy' } ], {
 					lines: {
 						show: true,
 						fill: true, /*SWITCHED*/
